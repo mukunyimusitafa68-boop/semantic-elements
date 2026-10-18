@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic elements</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous">
+     <style>
+
+        .nav-menu{
+            list-style: none;
+        }
+        .nav-menu li{
+            display:inline-block;
+            margin-right: 10px;
+        }
+        .nav-menu li a:hover{
+            background-color: rgb(11, 58, 211);
+            color: azure;
+        }
+        border{
+            color: white;
+        }
+    </style>
+</head>
+<body class="container">
+    <div class="btn-group" role="group">
+    <button class="btn btn-warning">
+     <a href="index.html">Home</a></button>
+     <button class="btn btn-success">
+      <a href="inline block.html">Inline block</a></button>
+      <button class="btn btn-danger">
+      <a href="semantic-elements.html">semantic-elements</a></button>
+    </div>
+    
+<!--Semantic elements-->
+
+
+    <header class="bg-primary border p-5 my-4 text-warning">
+        <h2>semantic elements</h2>
+    </header>
+    <nav class=" p-5 my-4">
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <a href="contact.html">contact</a>
+        </ul>
+        
+        
+    </nav>
+    <main class="bg-success border p-5 my-4">
+        <section>
+            <h3>Section1</h3>
+            <p> This is the content of the aside</p>
+        </section>
+        <aside>
+            <h3>Aside</h3>
+            <p>This is the content of aside</p>
+        </aside>
+    </main>
+    <footer class="bg-primary p-5 my-4">
+        <h2>Footer Area</h2>
+    </footer>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>
